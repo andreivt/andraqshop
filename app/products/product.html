@@ -10,6 +10,8 @@
     <link rel="stylesheet" type="text/css" href="product.css">
     <script src="../assets/js/jquery-2.1.4.js"></script>
     <script src="../assets/bootstrap/js/bootstrap.js"></script>
+    <script src="../js/utils.js"></script>
+    <script src="./product.js"></script>
 </head>
 <body id="top">
 <!-- Header -->
@@ -42,14 +44,14 @@
                 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
-                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <!-- <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                         <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li> -->
                     </ol>
 
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
-                        <div class="item active">
+                        <!-- <div class="item active">
                             <img src="../assets/images/products/product-1.jpg" alt="product1">
 
                             <div class="carousel-caption">
@@ -69,7 +71,7 @@
                             <div class="carousel-caption">
                                 Slide 3
                             </div>
-                        </div>
+                        </div> -->
                     </div>
 
                     <!-- Controls -->
@@ -85,18 +87,14 @@
             </div>
             <div class="col-sm-6">
                 <div class="product-summary">
-                    <h2>Awesome Product</h2>
+                    <h2></h2>
 
                     <div class="review-number">
-                        <span class="review-count">1</span> review
+                        <span class="review-count"></span>
                     </div>
-                    <p class="price">$22 </p>
+                    <p class="price"></p>
 
-                    <p class="description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus nibh sed elimttis
-                        adipiscing. Fusce in hendrerit purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed tempus nibh sed elimttis adipiscing. Fusce in hendrerit purus.
-                    </p>
+                    <p class="description"></p>
 
                     <form method="post" class="add-to-cart">
                         <div class="row">
@@ -123,15 +121,12 @@
 
             <!-- Tab panes -->
             <div class="tab-content">
-                <div role="tabpanel" class="tab-pane active" id="description">
-                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, massa fringilla consequat blandit, mauris ligula porta nisi, non tristique enim sapien vel nisl. Suspendisse vestibulum lobortis dapibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent nec tempus nibh. Donec mollis commodo metus et fringilla. Etiam venenatis, diam id adipiscing convallis, nisi eros lobortis tellus, feugiat adipiscing ante ante sit amet dolor. Vestibulum vehicula scelerisque facilisis. Sed faucibus placerat bibendum. Maecenas sollicitudin commodo justo, quis hendrerit leo consequat ac.
-                    Proin sit amet risus sapien, eget interdum dui. Proin justo sapien, varius sit amet hendrerit id, egestas quis mauris.
-                </div>
+                <div role="tabpanel" class="tab-pane active" id="description"></div>
                 <div role="tabpanel" class="tab-pane" id="specifications">
                     <div class="table-responsive table-bordered">
                         <table class="table">
                             <tbody>
-                            <tr>
+                            <!-- <tr>
                                 <th>Size</th>
                                 <td>20'X 30'</td>
                             </tr>
@@ -142,13 +137,18 @@
                             <tr>
                                 <th> Material</th>
                                 <td>100% Cotton</td>
-                            </tr>
+                            </tr> -->
                             </tbody>
                         </table>
                     </div>
                 </div>
                 <div role="tabpanel" class="tab-pane" id="reviews">
-                   Review here
+                  <div class="table-responsive table-bordered">
+                      <table class="table">
+                          <tbody>
+                          </tbody>
+                      </table>
+                  </div>
                 </div>
             </div>
 
